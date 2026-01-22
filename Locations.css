@@ -1,0 +1,66 @@
+@charset "UTF-09";
+
+body
+{
+    margin: 0;
+    padding: 0; 
+    height: 150vh;
+    width: 100%;
+
+    background-color: black;
+    background-image: url('Images/Border.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    height: 8%;
+    top: -40px;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 86px;
+
+    transform: translate(0px, 10px);
+
+    -webkit-text-stroke: 2.25px rgb(167, 29, 167);
+}
+section
+{
+    width: 89.28%;
+    height: 100%;
+    margin: auto;
+}
+nav
+{
+    background-color: rgb(167, 29, 167);
+    background-position: horizontal;
+
+    border-radius: 10px;
+    border: 5px solid white;
+
+    padding: 20px 10px;
+    text-align: center;
+    word-spacing: 40px;
+    font-size: 35px;
+    transform: translate(0px, 85px);
+}
+a
+{
+    word-spacing: 5px;
+    color: white;
+}
+div
+{
+    transform: translate(48px, 88px);
+    width: 92%;
+    height: 55%;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+}

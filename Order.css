@@ -1,0 +1,114 @@
+@charset "UTF-09";
+
+body
+{
+    margin: 0;
+    padding: 0; 
+    height: 150vh;
+    width: 100%;
+
+    background-color: black;
+    background-image: url('Images/Border.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    height: 8%;
+    top: -40px;
+}
+header h1
+{
+    text-align: center;
+    color: white;
+    font-size: 86px;
+
+    transform: translate(0px, 10px);
+
+    -webkit-text-stroke: 2.25px rgb(167, 29, 167);
+}
+section
+{
+    width: 89.28%;
+    height: 100%;
+    margin: auto;
+}
+nav
+{
+    background-color: rgb(167, 29, 167);
+    background-position: horizontal;
+
+    border-radius: 10px;
+    border: 5px solid white;
+
+    padding: 20px 10px;
+    text-align: center;
+    word-spacing: 40px;
+    font-size: 35px;
+    transform: translate(0px, 85px);
+}
+a
+{
+    word-spacing: 5px;
+    color: white;
+}
+
+/*Calc section*/
+form#Calculator
+{
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+
+    width: auto;
+    height: auto;
+}
+form#Calculator div
+{
+    border: 5px solid purple;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    margin: 30px;
+    height: 180px;
+    width: 200px;
+
+    background-color: black;
+    transform: translate(60px, 100px);
+}
+form#Calculator h1
+{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    color: white;
+
+    transform: translate(0px, -15px);
+}
+form#Calculator p
+{
+    text-align: center;
+    font-size: 0.85em;
+    color: white;
+
+    margin: 5px;
+}
+form#Calculator input
+{
+    transform: translate(50px, 20px);
+    height: 20px;
+    width: 100px;
+}
+section#main button
+{
+    transform: translate(550px, 135px);
+    outline: 4px solid rgb(167, 29, 167);
+    
+    height: 60px;
+    width: 120px;
+    font-size: 40px;
+}
+
